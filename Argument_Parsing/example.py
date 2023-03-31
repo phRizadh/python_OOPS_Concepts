@@ -38,6 +38,5 @@ def main_function(x):
     return result
 print(main_function(100000))
 
-
 # Execution:
 # python parsing.py log_performance.txt
