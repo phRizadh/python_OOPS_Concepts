@@ -2,7 +2,6 @@
 
 # Arguments are always in list and accessed by indexing first element in the list is always the python file name.
 
-
 import cProfile, pstats, io, sys
 from pstats import SortKey
 
@@ -38,5 +37,4 @@ def main_function(x):
     return result
 print(main_function(100000))
 
-# Execution:
 # python parsing.py log_performance.txt
